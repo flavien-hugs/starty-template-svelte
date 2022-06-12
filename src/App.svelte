@@ -1,21 +1,21 @@
 <script>
-	import { Router } from 'svelte-routing'
+	// plugins.svelte
+	import { Router, Route } from 'svelte-routing'
 
-	// component.svelte
-	import Hero from './components/Hero.svelte';
-	import Start from './components/Start.svelte';
+	// pages.svelte
+	import Home from './pages/Home.svelte';
+	import Contact from './pages/Contact.svelte';
+	import Feature from './pages/Feature.svelte';
+
+	// components.svelte
 	import Footer from './components/Footer.svelte';
 	import Header from './components/Header.svelte';
-	import Partner from './components/Partner.svelte';
-	import Contact from './components/Contact.svelte';
 </script>
 
 <Router>
 	<Header/>
-
-	<Hero/>
-	<Partner/>
-	<Start/>
-	<Contact/>
+	<Route path="/" component={Home}/>
+	<Route path="/page/feature/" component={Feature}/>
+	<Route path="/page/contact/" component={Contact}/>
 	<Footer/>
 </Router>
