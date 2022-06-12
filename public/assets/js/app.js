@@ -1,25 +1,3 @@
-/* Template Name: Starty - Multipurpose HTML Template
-   Author: Shreethemes
-   E-mail: shreethemes@gmail.com
-   Created: August 2021
-   Version: 1.0.0
-   Updated: February 2021
-   File Description: Main JS file of the template
-*/
-
-/*********************************/
-/*         INDEX                 */
-/*================================
- *     01.  Loader               *
- *     02.  Toggle Menus         *
- *     03.  Active Menu          *
- *     04.  Clickable Menu       *
- *     05.  Back to top          *
- *     06.  Feather icon         *
- *     06.  DD Menu              *
- *     06.  Active Sidebar Menu  *
- ================================*/
-
 window.addEventListener('load',   fn , false )
 
 //  window.onload = function loader() {
@@ -200,5 +178,5 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 try {
     var spy = new Gumshoe('#navmenu-nav a');
 }catch(err) {
-    
+
 }
