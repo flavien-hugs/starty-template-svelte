@@ -1,5 +1,4 @@
 # starty-template-svelte
-
 ---
 
 # How to use project ?
