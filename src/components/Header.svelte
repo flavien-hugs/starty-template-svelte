@@ -1,6 +1,6 @@
 <script>
     // Plugins
-    import { Link } from 'svelte-routing';
+    import { Link, Route } from 'svelte-routing';
 
     // Imports Images
     let dark = "assets/img/ldark.png";
@@ -37,16 +37,13 @@
         <div class="navigation">
             <ul class="navigation-menu nav-light nav-right" id="navmenu-nav">
                 <li class="has-submenu">
-                    <Link to="#home">Home</Link>
+                    <Link to="/">Home</Link>
                 </li>
                 <li class="has-submenu">
-                    <Link to="#services">Features</Link>
+                    <Link to="/page/feature/">Features</Link>
                 </li>
                 <li class="has-submenu">
-                    <Link to="#review">Review</Link>
-                </li>
-                <li class="has-submenu">
-                    <Link to="#contact">Contact</Link>
+                    <Link to="/page/contact/">Contact</Link>
                 </li>
             </ul>
         </div>

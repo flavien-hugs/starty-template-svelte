@@ -1,10 +1,7 @@
 <script>
     import { Link } from 'svelte-routing'
     import ArrowUp from "svelte-material-icons/ArrowUp.svelte"
-
-    const getDate = () => {
-        new Date().getFullYear();
-    }
+    
     const topFunction = () => {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
@@ -52,7 +49,7 @@
                 <div class="col-sm-8 mt-4 mt-sm-0">
                     <div class="text-sm-end text-center">
                         <p class="mb-0 text-muted">
-                            {getDate()} &copy; Flavien HUGS
+                            &copy; Flavien HUGS
                         </p>
                     </div>
                 </div>
