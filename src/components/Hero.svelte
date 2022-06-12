@@ -13,10 +13,12 @@
         <div class="row position-relative" style="z-index: 1;">
             <div class="col-md-7 col-12 mt-lg-5">
                 <div class="title-heading">
-                    <h1 class="heading text-white title-dark mb-4">Essential Mobile App <br> for Workspaces</h1>
+                    <h1 class="heading text-white title-dark mb-4">
+                        Essential Mobile App <br> for Workspaces
+                    </h1>
                     <p class="para-desc text-white-50">Explore and learn more about everything from machine learning and global payments to scaling your team.</p>
                     <div class="mt-4 pt-2">
-                        <Link to="" class="btn btn-primary">
+                        <Link to="/" class="btn btn-primary">
                             Start Free Trial
                         </Link>
                     </div>
