@@ -1,5 +1,6 @@
 <script>
     import { Link } from 'svelte-routing';
+    import ArrowRight from "svelte-material-icons/ArrowRight.svelte";
 
     let app1 = 'assets/img/app/1.png'
     let app2 = 'assets/img/app/2.png'
@@ -24,7 +25,7 @@
                     <Link to="/">
                         <span class="text-dark">
                             Read More
-                            <i class="uil uil-arrow-right"></i>
+                            <ArrowRight/>
                         </span>
                     </Link>
                 </div>
@@ -45,7 +46,7 @@
                     <Link to="page-single-service.html">
                         <span class="text-dark">
                             Read More
-                            <i class="uil uil-arrow-right"></i>
+                            <ArrowRight/>
                         </span>
                     </Link>
                 </div>
@@ -67,7 +68,8 @@
 
                     <Link to="#">
                         <span class="text-dark">
-                            Read More <i class="uil uil-arrow-right"></i>
+                            Read More
+                            <ArrowRight/>
                         </span>
                     </Link>
                 </div>
@@ -82,12 +84,6 @@
                     <div class="tiny-single-item">
                         <div class="tiny-slide">
                             <img src={app1} class="img-fluid" alt="app-1">
-                        </div>
-                        <div class="tiny-slide">
-                            <img src={app2} class="img-fluid" alt="app-2">
-                        </div>
-                        <div class="tiny-slide">
-                            <img src={app3} class="img-fluid" alt="app-3">
                         </div>
                     </div>
                 </div>
@@ -126,7 +122,7 @@
                         <div class="mt-4">
                             <Link to="" class="btn btn-soft-primary">
                                 Try for free
-                                <i data-feather="arrow-right" class="fea icon-sm"></i>
+                                <ArrowRight/>
                             </Link>
                         </div>
                     </div>
